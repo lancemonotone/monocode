@@ -1,3 +1,3 @@
 # monocode
 
-This is a repository for little projects I have (or will) work on.
+This is a repository for projects I have (or will) work on.
