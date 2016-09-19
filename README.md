@@ -2,6 +2,6 @@ An AngularJS interface utilizing the WordPress REST API. Developed for Williams 
 
 This repo consists of two plugins. The first, `wms-rest-api`, extends WP API and sets up the necessary endpoints. All the magic happens in `wms-dining-menu-widget`.
 
-[The Dining Widget in the wild](http://dining.williams.edu/eats4ephs/?unitid=29&meal=LUNCH).
+[See the Dining Widget in the wild.](http://dining.williams.edu/eats4ephs/?unitid=29&meal=LUNCH).
 
 ![Screenshot of wp-angular-dining-widget](wp-angular-dining-widget.jpg)
