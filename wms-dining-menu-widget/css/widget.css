@@ -1,0 +1,113 @@
+/* This stylesheet is used to style the public view of the widget. */
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+    display: none !important;
+}
+
+#dining-app {
+    padding-bottom: 15px;
+    padding-bottom: 15px;
+}
+
+#dining-app * {
+    transition: background-color .2s, color .2s;
+}
+
+#dining-app .ng-animate {
+    -webkit-transition: all linear 0.5s;
+    transition: all linear 0.5s;
+}
+
+#dining-app > h1 {
+    background-color: #446181;
+    padding: 10px;
+    margin: 0px;
+    color: #FFF;
+    font-weight: normal;
+    font-size: 17px;
+}
+
+#dining-app h2 {
+    color: inherit;
+}
+
+#dining-app .collection-date {
+    font-size: 93%;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 5px 10px;
+}
+
+.loader {
+    background: transparent url("../img/loader.gif") no-repeat scroll center center;
+    width: 34px;
+    height: 20px;
+    display: inline-block;
+    margin: 0.7em 0 0 1em;
+    float: left;
+}
+
+#dining-app .meal-selectors {
+    margin-bottom: 5px;
+}
+
+#dining-app .meal-selectors > div,
+#dining-app .info-footer {
+    background: #E2E2E2 none repeat scroll 0% 0%;
+    /*box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);*/
+    padding: 5px;
+    /*border: 1px solid #cfcfcf;*/
+}
+
+#dining-app .info-footer {
+    background: #eeeeee;
+}
+
+#dining-app .meal-selectors > div:nth-child(2n) {
+    background: #eeeeee;
+    border-top: none;
+}
+
+a.button {
+    margin: 3px;
+}
+
+a.button.service_units_active,
+a.button.meals_active {
+    background-color: #27acd3 !important;
+}
+
+#dining-app .meal-list > ul {
+    margin-bottom: 0;
+    padding-left: 5px;
+}
+
+#dining-app .meal-list > ul ul {
+    padding: 0 0 5px 10px;
+}
+
+#dining-app .meal-list > ul > li {
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+#dining-app .meal-list > ul > li:nth-child(2n) {
+    border-color: #e8e8e8;
+    border-style: solid;
+    border-width: 1px 0;
+}
+
+#dining-app .meal-list > ul > li:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom-width: 0px;
+}
+
+#dining-app .info-footer {
+    margin: 10px 0;
+}
+
+#dining-app .info-footer p {
+    margin: 5px 10px 0;
+    font-weight: bold;
+    font-size: 12px;
+}
